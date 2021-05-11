@@ -15,7 +15,28 @@
   
 </ul>
 
-### LogO 
 
-<img src="Terraform.png">
+# Installation 
+
+### Terraform can be installed in ALL OS platform including  Windows / Mac / Linux 
+
+## TO download terraform for your selected OS you can choose link from below given URL 
+
+[Terraform_Download](https://www.terraform.io/downloads.html)
+
+## Installing in any Linux Platform 
+
+<img src="linux_install.png">
+
+## checking installation 
+
+```
+fire@XIA:~/Desktop$ terraform  -v
+Terraform v0.15.3
+on linux_amd64
+
+```
+
+
+
 
