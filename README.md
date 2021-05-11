@@ -15,7 +15,21 @@
   
 </ul>
 
-### LogO 
+# Terraform providers 
 
-<img src="Terraform.png">
+### Providers are a logical abstraction of an upstream API . They are responsible for understanding API interactions and exposing resources.
+
+## providers link 
+[Terraform_providers](https://registry.terraform.io/browse/providers)
+
+## We are going to start with Aws providers 
+
+### Explore all the options in AWS providers
+
+[terraform_aws_provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+
+
+
+
+
 
