@@ -61,3 +61,35 @@ aws_vpc.main: Creation complete after 13s [id=vpc-09a035c7e386525d5]
 
 ```
 
+## Doing the same with plan 
+
+```
+fire@XIA:~/Desktop/tech/terraform/project1$ terraform  plan --target=aws_vpc.main   --target=aws_subnet.subnet-1 
+
+```
+
+
+### applying 
+
+```
+fire@XIA:~/Desktop/tech/terraform/project1$ terraform  apply  --target=aws_vpc.main   --target=aws_subnet.subnet-1   
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # aws_subnet.subnet-1 will be created
+  + resource "aws_subnet" "subnet-1" {
+      + arn                             = (known after apply)
+      + assign_ipv6_address_on_creation = false
+      + availability_zone               = (known after apply)
+      + availability_zone_id            = (known after apply)
+      + cidr_block                      = "10.0.1.0/24"
+      + id              
+
+
+```
+
+
+
