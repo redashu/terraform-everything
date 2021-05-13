@@ -15,7 +15,18 @@
   
 </ul>
 
-### LogO 
+# Terraform state   
 
-<img src="Terraform.png">
+## after your apply command in any tf script 
 
+###  Terraform is creating a file called "terraform.tfstate" 
+
+### This is only responsible for all deleteing and creation  
+
+### everytime we do either apply or delete or plan terraform.tfstate is gonna be looked
+
+# Important :  if you made some changes in  tf script file and that is not matching with state file 
+
+### then terraform will delete that thing from resource will create it again 
+
+## Note: every terraform apply command is also creating a backup of current apply  so you can restore data from there 
