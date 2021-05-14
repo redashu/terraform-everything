@@ -1,8 +1,8 @@
 provider "aws" {
 
     region = "us-east-2"  #  THis is aws Ohio region 
-    access_key = "AKIAQ4OUTXWCUW4RVFPZ"
-    secret_key = "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"
+    access_key = ""
+    secret_key = ""
 }
 
 # a project 
