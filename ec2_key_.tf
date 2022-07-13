@@ -1,8 +1,8 @@
 provider "aws" {
 
     region = "us-east-2"  #  THis is aws Ohio region 
-    access_key = "AKIAQ4OUTXWCWYIKZS2A"
-    secret_key = "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"
+    access_key = "A2A"
+    secret_key = "rBL3f"
 }
 
 #resource "<provider>_<resourcetype>" "anyname" {
