@@ -16,7 +16,17 @@
   <li> Question types  </li>
   <img src="images/qtype.png">
   
-  
 </ol>
+
+### HashiCorp exam URL 
+[Click_here](https://www.hashicorp.com/certification/terraform-associate)
+
+### HCL --- HashiCorp Configuration Language 
+
+<p> A declarative language that support programming language like features like variables ,loops Dynamicblocks , maps etc </p>
+
+### Idempotent vs non-idempotent 
+
+<img src="idem.jpg">
 
 
