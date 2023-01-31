@@ -14,7 +14,7 @@
   <li> You can affort 17 wrong Question near about </li>
   <li> There is no Negative Marking  </li>
   <li> Question types  </li>
-  <img src="qtype.png">
+  <img src="images/qtype.png">
   
   
 </ol>
