@@ -27,6 +27,12 @@
 
 ### Idempotent vs non-idempotent 
 
-<img src="idem.jpg">
+<img src="images/idem.jpg">
+
+### Provisioning vs deployment vs orchestration 
+
+<img src="images/prov.png">
+
+
 
 
