@@ -19,8 +19,15 @@ fire@ashutoshhs-MacBook-Air terraform % terraform graph | dot -Tsvg  >graph.svg
 
 ### Terraform format -- TO fix identations automatically 
 
-![Watch_this](https://www.youtube.com/watch?v=V4waklkBC38&t=2284s)
+```
+terraform fmt
+```
 
+### terraform validate -- To let you know what is missing 
+
+```
+terraform validate
+```
 
 
 
