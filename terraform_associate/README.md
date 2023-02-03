@@ -33,6 +33,12 @@
 
 <img src="images/prov.png">
 
+### Terraform lifecycle 
+
+<img src="lifec.png">
+
+
+
 
 
 
