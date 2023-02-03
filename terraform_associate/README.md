@@ -35,7 +35,7 @@
 
 ### Terraform lifecycle 
 
-<img src="lifec.png">
+<img src="images/lifec.png">
 
 
 
