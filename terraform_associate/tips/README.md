@@ -26,3 +26,5 @@ fire@ashutoshhs-MacBook-Air terraform % terraform graph | dot -Tsvg  >graph.svg
 
 https://user-images.githubusercontent.com/8552914/216512889-b6d958c6-bb85-4e1e-bac6-a753757c6869.mp4
 
+https://www.youtube.com/watch?v=eVEWsZ2XsVQ
+
