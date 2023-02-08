@@ -1,0 +1,8 @@
+#cloud-config
+packages:
+  - httpd
+  - vsftpd
+runcmd:
+  - systemctl start httpd 
+  - sudo systemctl enable httpd
+  - systemctl start vsftpd 
