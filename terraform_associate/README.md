@@ -45,6 +45,10 @@
 
 <img src="images/usecl.png">
 
+## there are 3 types of provisioner in terraform 
+
+<img src="images/typepr.png">
+
 ### Using local-exec in terraform 
 
 <img src="images/local.png">
