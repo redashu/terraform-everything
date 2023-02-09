@@ -37,6 +37,23 @@
 
 <img src="images/lifec.png">
 
+## Terraform provisioners 
+
+<img src="images/provisioner.png">
+
+### Using Cloud init in terraform script 
+
+<img src="images/usecl.png">
+
+### Using local-exec in terraform 
+
+<img src="images/local.png">
+
+### using local_exec 
+
+<img src="images/localpr.png">
+
+
 
 
 
