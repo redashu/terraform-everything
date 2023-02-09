@@ -39,6 +39,14 @@ resource "aws_instance" "ashuvm" {
     command = "echo date >>last.txt"
     
   }
+  provisioner "local-exec" {
+    when = create
+    command = "/tmp/a.py"
+    interpreter = [
+      "python3"
+    ]
+    
+  }
 
 }
 
