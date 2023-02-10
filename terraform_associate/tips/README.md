@@ -29,6 +29,16 @@ terraform fmt
 terraform validate
 ```
 
+### listing providers that you are using 
+
+```
+fire@ashutoshhs-MacBook-Air devops_terraform % terraform providers
+
+Providers required by configuration:
+.
+└── provider[registry.terraform.io/hashicorp/aws]
+
+```
 
 
 https://user-images.githubusercontent.com/8552914/216512889-b6d958c6-bb85-4e1e-bac6-a753757c6869.mp4
