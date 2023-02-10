@@ -40,6 +40,38 @@ Providers required by configuration:
 
 ```
 
+## Terraform override files 
+
+### main.tf 
+
+```
+resource "aws_instance" "ashu-obj" {
+  ami                    = "ami-01a4f99c4ac11b03c"
+  instance_type          = "t2.micro"
+  key_name               = "hellokey" # using existing key 
+  vpc_security_group_ids = [data.aws_security_group.ashu-sg.id, data.aws_security_group.ashu-sg1.id]
+  tags = {
+    "Name" = "linux-vm-terraform"
+  }
+
+
+}
+```
+
+### override.tf -- this will override details :--- only filename must be override.tf 
+
+```
+resource "aws_instance" "ashu-obj" {
+  
+  tags = {
+    "Name" = "linux-vm-using-tfoverride"
+  }
+
+
+}
+```
+
+
 
 https://user-images.githubusercontent.com/8552914/216512889-b6d958c6-bb85-4e1e-bac6-a753757c6869.mp4
 
