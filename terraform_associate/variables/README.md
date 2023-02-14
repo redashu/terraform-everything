@@ -57,5 +57,13 @@ terraform apply -var='image_id_map={"us-east-1":"ami-abc123","us-east-2":"ami-de
 
 ```
 
+### Using tfvars in terraform apply 
+
+```
+terraform apply -var-file="stages.tfvars"
+
+```
+
+
 
 
