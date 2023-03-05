@@ -17,11 +17,11 @@
 
 # Terraform state   
 
-## after your apply command in any tf script 
+## after your deploy  resources in any tf script 
 
-###  Terraform is creating a file called "terraform.tfstate" 
+###  Terraform is creating a file in the backend called "terraform.tfstate" 
 
-### This is only responsible for all deleteing and creation  
+### This is only responsible for overall state of all the terraform resources 
 
 ### everytime we do either apply or delete or plan terraform.tfstate is gonna be looked
 
