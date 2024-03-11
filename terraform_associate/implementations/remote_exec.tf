@@ -24,7 +24,20 @@ resource "aws_instance" "vm00file" {
         "yum install python3 -y",
         "python3 /home/ec2-user/run.py"
       ]
-      
+
+   # we can run local script into remote target using script or scripts keywords 
+   provisioner "remote-exec" {
+      scripts = [ 
+         "./my-scripts/web.sh", # these scripts are stored in local terraform machine 
+         "./my-scripts/web1.sh"
+       ]
+      #scripts = "./my-scripts/web.sh" # to execute script 
+      # inline = [ 
+      #   "chmod +x /tmp/web.sh",
+      #   "/tmp/web.sh args"  # only when we need to pass some argument then we can use inline to run script 
+      #   ]
+    }
+# Defining connection details 
     }
     connection {
       type = "ssh"
