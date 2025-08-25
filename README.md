@@ -19,3 +19,12 @@
 
 <img src="Terraform.png">
 
+## Tab completion enable for terraform & terragrunt 
+
+### bash 
+
+```
+terraform --install-auto-completion
+terragrunt --install-auto-completion
+```
+
