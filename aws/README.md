@@ -3,3 +3,11 @@
 ```
 terraform init -migrate-state
 ```
+
+### to update tfstate file if so changes in realinfra
+
+```
+terraform refresh # deprecated 
+terraform apply -refresh-only
+
+```
